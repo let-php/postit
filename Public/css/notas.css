@@ -1,0 +1,24 @@
+/*@import url('./reset.css');*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+:root{
+	--bg: #212122;
+	
+	--color-candy: #FF5976;
+	--font-primary:'Open Sans', sans-serif; 
+}
+body{
+	
+	font-family: var(--font-primary);
+}
+
+.bg-candy{ background: #FF5976; }
+
+.btn-candy{
+	 background: #FF5976;
+	 color: white;
+}
+
+.colores.active{
+	border:2px solid var(--color-candy) ;
+}
